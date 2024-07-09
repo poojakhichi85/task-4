@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(200, 202, 248) ;
+}
+
+header {
+    background-color:#4c46ee;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color:#fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+}
+
+nav ul li a.active, 
+nav ul li a:hover {
+    background-color:#4c46ee ;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background-color:#4c46ee;
+    color:white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.contact-section {
+    max-width: 600px;
+    margin: 0 auto;
+    color: black;
+    font-size: 1rem;
+    
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section label {
+    margin: 0.5rem 0 0.2rem;
+}
+
+.contact-section input, 
+.contact-section textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+    
+.contact-section button {
+    padding: 0.7rem;
+    background-color:#6a65f9;
+    color:black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 125%;
+}
+
+.contact-section button:hover {
+    background-color: rgb(92, 94, 192) ;
+}
+
